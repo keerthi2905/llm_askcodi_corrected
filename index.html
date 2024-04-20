@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polaroid Online Store</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+
+    .product {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    input, label, textarea {
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Online Polaroid Store</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <button>Sign In</button>
+    </nav>
+</header>
+<div class="container">
+    <div class="product">
+        <img src="https://placekitten.com/200/200" alt="Product Image">
+        <div>
+            <h2>Apple Polaroid Camera</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam odio vel tincidunt consequat.</p>
+            <p>Price: $199</p>
+        </div>
+    </div>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Enter the subject">
+        <label for="message">Message</label>
+        <textarea rows="4" id="message" placeholder="Enter your message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<footer>
+    <p>&copy; 2023 Polaroid Online Store. All Rights Reserved</p>
+</footer>
+<script>
+    // Any JavaScript code could be added here if needed
+</script>
+</body>
+</html>
